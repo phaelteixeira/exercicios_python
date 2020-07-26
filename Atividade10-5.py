@@ -3,7 +3,7 @@
 def is_sorted(t):
     aux = 0
     first = t[0]
-    existe = 0
+    existe = 0 
     while(aux < len(t)):
         if first <= t[aux]:
             first = t[aux]
